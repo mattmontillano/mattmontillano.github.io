@@ -1,0 +1,734 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #232323;
+}
+
+/* universal nav bar */
+
+header {
+  background-color: #fafafa;
+}
+
+.navbar-container {
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+.nav-links-list {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+}
+
+.nav-item {
+  margin: 0px 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* universal footer */
+
+footer {
+  background-color: #fafafa;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 48px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.contact-links {
+  display: flex;
+}
+
+.contact {
+  margin: 0 40px;
+}
+
+/* index.html CSS */
+
+.home-container {
+  background-color: #fafafa;
+  height: 100vh;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero {
+  background: url(images/hero.png) center / cover;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-top: 40px;
+  height: 100vh;
+}
+
+.greeting {
+  color: #fafafa;
+  font-size: 36px;
+  max-width: 560px;
+}
+
+.hero-button {
+  background-color: #700000;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fafafa;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  height: 40px;
+  margin-top: 24px;
+  width: 200px;
+}
+
+.case-study {
+  align-items: center;
+  background-color: #fafafa;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+}
+
+.case-study-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 120px;
+  text-align: left;
+}
+
+.case-study-name {
+  font-size: 36px;
+}
+
+.case-study-description {
+  font-size: 24px;
+  height: 104px;
+  width: 400px;
+}
+
+.cloud-world-link {
+  color: #700000;
+  font-size: 18px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  height: 568px;
+  justify-content: center;
+}
+
+.about-header {
+  color: #fafafa;
+  font-size: 36px;
+  text-align: center;
+}
+
+.about-text {
+  color: #fafafa;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+  width: 400px;
+}
+
+.more-about-me-button {
+  background-color: #700000;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fafafa;
+  display: flex;
+  font-size: 14px;
+  height: 40px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 200px;
+  text-align: center;
+}
+
+/* project.html CSS */
+
+.cloud-world-container {
+  background-color: #fafafa;
+  height: 100vh;
+  width: auto;
+  margin: 0 auto;
+}
+
+/* intro */
+
+.case-study-intro {
+  align-items: center;
+  background-color: #fafafa;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.case-study-intro-image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.case-study-intro-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.case-study-title {
+  font-size: 36px;
+  margin-right: 400px;
+  padding-bottom: 8rem;
+}
+
+.cloud-world-title {
+  font-size: 24px;
+  padding-bottom: 1rem;
+}
+
+.intro-text {
+  font-size: 18px;
+  width: 400px;
+  padding-bottom: 32px;
+}
+
+.view-prototype-button-intro {
+  background-color: #700000;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fafafa;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  width: 200px;
+}
+
+.intro-graph {
+  padding-top: 40px;
+}
+
+/* Section Titles and Text */
+
+.section-title {
+  color: #fafafa;
+  font-size: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.section-text {
+  color: #fafafa;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 400px;
+}
+
+/* Section Buttons */
+
+.view-prototype-button {
+  background-color: #700000;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fafafa;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.view-full-analysis-button , .view-full-personas-button , .view-full-user-stories-button , .view-full-style-guide-button {
+  background-color: #700000;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fafafa;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 200px;
+}
+
+/* Sections */
+
+/* Problem & Solution */
+
+.problem {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  justify-content: center;
+}
+
+.solution {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+  justify-content: center;
+}
+
+.solution-title {
+  font-size: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.solution-text {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 16px;
+  text-align: center;
+  width: 434px;
+}
+
+/* Competitive Analysis */
+
+.competitive-analysis {
+  display: flex;
+  flex-direction: column;
+  height: 440px;
+  justify-content: center;
+}
+
+.competitive-analysis-images {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  justify-content: center;
+  text-align: center;
+}
+
+.google-drive {
+  padding-right: 40px;
+}
+
+.dropbox {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 20px 40px 0px;
+}
+
+.pinterest {
+  padding-left: 40px;
+}
+
+/* User Survey */
+
+.user-survey {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+}
+
+.user-survey-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  text-align: center;
+}
+
+.survey-results-1 {
+  padding-bottom: 35px;
+  width: 150px;
+}
+
+.survey-results-2 {
+  width: 150px;
+}
+
+.survey-results-3 {
+  width: 500px;
+}
+
+.survey-results-4 {
+  padding-top: 25px;
+  width: 500px;
+}
+
+/* Personas */
+
+.personas {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+}
+
+.personas-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  text-align: center;
+}
+
+.persona-1,.persona-2 {
+  height: 300px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/* User Stories */
+
+.user-stories {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+}
+
+.user-stories-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* User Flows */
+
+.user-flows {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+}
+
+.user-flows-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  justify-content: center;
+  text-align: center;
+}
+
+.user-flows-1 , .user-flows-2 , .user-flows-3 {
+  height: 400px;
+  padding: 0px 20px 20px 20px;
+}
+
+.user-flows-4 , .user-flows-5 {
+  height: 300px;
+  padding: 20px 20px 0px 20px;
+}
+
+/* Wireframes */
+
+.wireframes {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+}
+
+.wireframes-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+}
+
+.wireframes-1 , .wireframes-2 , .wireframes-3 {
+  height: 294px;
+  padding: 0px 10px 10px 10px;
+}
+
+.wireframes-4 , .wireframes-5 , .wireframes-6 {
+  height: 247px;
+  padding: 10px 10px 0px 10px;
+}
+
+/* Usability Tests */
+
+.usability-testing-round-1 {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+}
+
+.usability-testing-round-1-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  justify-content: center;
+  text-align: center;
+}
+
+.usability-tests-1 , .usability-tests-2 {
+  height: 300px;
+  padding: 20px;
+}
+
+/* Brand Identity */
+
+.brand-identity {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+.brand-identity-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  justify-content: center;
+  text-align: center;
+}
+
+.brand-identity-images-container {
+  height: 600px;
+}
+
+.row , .row-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding-left: 20px;
+}
+
+.brand-color , .brand-typography , .brand-logo {
+  height: 200px;
+}
+
+.brand-identity-color-1 , .brand-identity-typography-1 , .brand-identity-logo-1 {
+  height: 150px;
+}
+
+.brand-identity-color-2 {
+  height: 400px;
+}
+
+.brand-identity-typography-2 {
+  height: 250px;
+}
+
+.brand-identity-logo-2 {
+  height: 300px;
+}
+
+/* Mockups & Prototype v.1 */
+
+.mockups-prototype-v1 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+}
+
+.mockups-prototype-v1-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 1280px;
+  justify-content: center;
+  text-align: center;
+}
+
+.mockups-1 , .mockups-2 , .mockups-3 , .mockups-4 {
+  height: 310px;
+  padding: 10px;
+}
+
+.mockups-5 , .mockups-6 , .mockups-7 , .mockups-8 {
+  height: 600px;
+  padding: 10px;
+}
+
+/* Preference Testing */
+
+.preference-testing {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+}
+
+.preference-testing-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  justify-content: center;
+  text-align: center;
+}
+
+.preference-yes-1 , .preference-yes-2 , .preference-yes-3 , .preference-no-1 , .preference-no-2 , .preference-no-3 {
+  height: 300px;
+  padding: 20px 40px;
+}
+
+/* Mockups & Prototype v.2 */
+
+.mockups-prototype-v2 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+}
+
+.mockups-prototype-v2-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  justify-content: center;
+  text-align: center;
+}
+
+.mockups-v2-1 , .mockups-v2-2 , .mockups-v2-3 {
+  height: 270px;
+  padding: 20px 10px;
+}
+
+.mockups-v2-4 , .mockups-v2-5 , .mockups-v2-6 {
+  height: 400px;
+  padding: 20px 30px;
+}
+
+/* Usability Testing */
+
+.usability-testing-round-2 {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+}
+
+.usability-testing-round-2-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  justify-content: center;
+  text-align: center;
+}
+
+.usability-1 , .usability-2 {
+  height: 300px;
+  padding: 20px;
+}
+
+/* Evolution */
+
+.evolution {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+.evolution-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 850px;
+  justify-content: center;
+  text-align: center;
+}
+
+.evolution-1 {
+  height: 800px;
+}
+
+/* Cloud World Ending */
+
+.cloud-world-ending {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+}
+
+.cloud-world-ending-images {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 850px;
+  justify-content: center;
+  text-align: center;
+}
+
+.final-1 , .final-2 {
+  height: 270px;
+  padding: 0px 20px 10px 20px;
+}
+
+.final-3 {
+  height: 400px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.final-4 , .final-5 {
+  height: 394px;
+}
+
+/* Conclusion */
+
+.conclusion {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+}

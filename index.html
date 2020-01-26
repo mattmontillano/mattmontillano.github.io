@@ -2,51 +2,86 @@
 <html>
   <head>
     <title>Portfolio | Matthew Montillano</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <div class="home-container">
-      <!--Header-->
+
+      <!--Nav Bar-->
       <header>
-        <nav class="navigation">
-          <!--Logo Link to image or styles file-->
-          <ul class="nav-links">
-            <li>Work</li>
-            <li>About</li>
-            <li>Resume</li>
-            <li>Contact</li>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="logo" href="index.html">
+            <img src="images/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
 
-      <main>
-        <!--Hero Section-->
-        <section class="hero">
-          <!--Background image-->
-          <h1 class="greeting">Hi, I'm Matt. I'm a UX Designer based in San Diego who is on a mission to solve problems in the coolest way possible.</h1>
-          <a class="hero-button">View Resume</a>
-        </section>
+      <!--Hero Section-->
+      <section class="hero">
+        <div class="greeting">
+          <h1>Hi, I'm Matt.<br> I'm a UX Designer based in San Diego who is on a mission to solve problems in the coolest way possible.</h1>
+        </div>
+        <button class="hero-button">View Resume</button>
+      </section>
 
-        <!--Case Study Section-->
-        <section class="case-study">
-          <!--Cloud World Images-->
+      <!--Case Study Section-->
+      <section class="case-study">
+        <div class="cloud-world-images-container">
+          <img class="cloud-world-images" src="images/screens.png" alt="cloud-world-images">
+        </div>
+        <div class="case-study-name-container">
           <h2 class="case-study-name">Cloud World</h2>
-          <h3 class="case-study-description">Intuitive design. Unlimited potential. Cloud storage service for professionals and casual useres alike.</h3>
+          <h3 class="case-study-description">Intuitive design. Unlimited potential. Cloud storage service for professionals and casual users alike.</h3>
           <a class="cloud-world-link">View Case Study</a>
-        </section>
+        </div>
+      </section>
 
-        <!--About Me Section-->
-        <section class="about-me">
-          <h1 class="about-header">A Little About Me</h1>
-          <h2 class="about-text">I combined my wild imagination and my degree in media into a passion for content creation. I am currently in a mentorship focused on user experience design and plan to contribute my skills towards awesome projects.</h2>
-          <a class="more-about-me-button">More About Me</a>
-        </section>
-      </main>
+      <!--About Me Section-->
+      <section class="about-me">
+        <h1 class="about-header">A Little About Me</h1>
+        <h2 class="about-text">I combined my wild imagination and my degree in media into a passion for content creation. I am currently in a mentorship focused on user experience design and plan to contribute my skills towards awesome projects.</h2>
+        <button class="more-about-me-button">More About Me</button>
+      </section>
 
       <!--Footer-->
       <footer>
-        <h1 class="footer">Let's Get Started.</h1>
-        <!--Contact Link Icons List-->
+        <div class="footer-container">
+          <h1 class="footer-text">Let's Get Started.</h1>
+          <ul class="contact-links" style="text-decoration:none">
+            <li class="contact"><img src="images/mail.png" alt="mail"></li>
+            <li class="contact"><img src="images/linkedin.png" alt="linkedin"></li>
+            <li class="contact"><img src="images/github.png" alt="github"></li>
+            <li class="contact"><img src="images/twitter.png" alt="twitter"></li>
+          </ul>
+        </div>
       </footer>
+
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
