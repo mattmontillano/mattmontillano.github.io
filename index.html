@@ -4,6 +4,7 @@
     <title>Portfolio | Matthew Montillano</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat:400,500|Prompt&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -20,16 +21,16 @@
           <div class="nav-links-list-container">
             <ul class="nav-links-list">
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="index.html">Work</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href=https://drive.google.com/file/d/1Y_FLqbzc7-1KaVB5Wopid1CEPqrkT6th/view?usp=sharing>Resume</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#bottom">Contact</a>
               </li>
             </ul>
           </div>
@@ -39,9 +40,12 @@
       <!--Hero Section-->
       <section class="hero">
         <div class="greeting">
-          <h1>Hi, I'm Matt.<br> I'm a UX Designer based in San Diego who is on a mission to solve problems in the coolest way possible.</h1>
+          <h1 class="hi">Hi, I'm Matt.</h1>
+          <h1 class="who-am-i"> I'm a UX Designer based in San Diego who is on a mission to solve problems in the coolest way possible.</h1>
         </div>
-        <button class="hero-button">View Resume</button>
+        <a href=https://drive.google.com/file/d/1Y_FLqbzc7-1KaVB5Wopid1CEPqrkT6th/view?usp=sharing style="text-decoration:none">
+          <button class="hero-button">View Resume</button>
+        </a>
       </section>
 
       <!--Case Study Section-->
@@ -52,7 +56,7 @@
         <div class="case-study-name-container">
           <h2 class="case-study-name">Cloud World</h2>
           <h3 class="case-study-description">Intuitive design. Unlimited potential. Cloud storage service for professionals and casual users alike.</h3>
-          <a class="cloud-world-link">View Case Study</a>
+          <a class="cloud-world-link" href="project.html">View Case Study</a>
         </div>
       </section>
 
@@ -65,20 +69,26 @@
 
       <!--Footer-->
       <footer>
+        <a name="bottom"></a>
         <div class="footer-container">
           <h1 class="footer-text">Let's Get Started.</h1>
           <ul class="contact-links" style="text-decoration:none">
-            <li class="contact"><img src="images/mail.png" alt="mail"></li>
-            <li class="contact"><img src="images/linkedin.png" alt="linkedin"></li>
-            <li class="contact"><img src="images/github.png" alt="github"></li>
-            <li class="contact"><img src="images/twitter.png" alt="twitter"></li>
+            <li class="contact">
+              <a class="email" href="mailto: mattmontillano@gmail.com"><img src="images/mail.png" alt="mail"></a>
+            </li>
+            <li class="contact">
+              <a class="linkedin" href=https://www.linkedin.com/in/matthewmontillano/><img src="images/linkedin.png" alt="linkedin"></a>
+            </li>
+            <li class="contact">
+              <a class="github" href=https://github.com/mattmontillano><img src="images/github.png" alt="github"></a>
+            </li>
+            <li class="contact">
+              <a class="twitter" href=https://twitter.com/MatthewMontill1><img src="images/twitter.png" alt="twitter"></a>
+            </li>
           </ul>
         </div>
       </footer>
 
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -30,6 +30,7 @@ body {
 }
 
 .nav-links-list-container {
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
   margin-right: 40px;
 }
@@ -43,6 +44,7 @@ body {
 }
 
 .nav-link {
+  color: #700000;
   text-decoration: none;
 }
 
@@ -61,6 +63,7 @@ footer {
 }
 
 .footer-text {
+  font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   padding-bottom: 40px;
   text-align: center;
@@ -98,12 +101,22 @@ footer {
   max-width: 560px;
 }
 
+.hi {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.who-am-i {
+  font-family: 'Crimson Text', serif;
+}
+
 .hero-button {
   background-color: #700000;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fafafa;
   display: flex;
+  font-family: 'Prompt', sans-serif;
   font-size: 14px;
   justify-content: center;
   height: 40px;
@@ -128,10 +141,14 @@ footer {
 }
 
 .case-study-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   font-size: 36px;
+  padding-bottom: 40px;
 }
 
 .case-study-description {
+  font-family: 'Crimson Text', serif;
   font-size: 24px;
   height: 104px;
   width: 400px;
@@ -139,7 +156,9 @@ footer {
 
 .cloud-world-link {
   color: #700000;
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .about-me {
@@ -151,12 +170,15 @@ footer {
 
 .about-header {
   color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   font-size: 36px;
   text-align: center;
 }
 
 .about-text {
   color: #fafafa;
+  font-family: 'Crimson Text', serif;
   font-size: 24px;
   margin-left: auto;
   margin-right: auto;
@@ -171,6 +193,7 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fafafa;
   display: flex;
+  font-family: 'Prompt', sans-serif;
   font-size: 14px;
   height: 40px;
   justify-content: center;
@@ -211,17 +234,20 @@ footer {
 }
 
 .case-study-title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   margin-right: 400px;
   padding-bottom: 8rem;
 }
 
 .cloud-world-title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   padding-bottom: 1rem;
 }
 
 .intro-text {
+  font-family: 'Crimson Text', serif;
   font-size: 18px;
   width: 400px;
   padding-bottom: 32px;
@@ -233,6 +259,7 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fafafa;
   display: block;
+  font-family: 'Prompt', sans-serif;
   font-size: 14px;
   height: 40px;
   width: 200px;
@@ -246,6 +273,7 @@ footer {
 
 .section-title {
   color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   padding-bottom: 24px;
   text-align: center;
@@ -253,6 +281,7 @@ footer {
 
 .section-text {
   color: #fafafa;
+  font-family: 'Crimson Text', serif;
   font-size: 18px;
   margin-left: auto;
   margin-right: auto;
@@ -268,6 +297,7 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fafafa;
   display: block;
+  font-family: 'Prompt', sans-serif;
   font-size: 14px;
   height: 40px;
   margin-left: auto;
@@ -275,12 +305,13 @@ footer {
   width: 200px;
 }
 
-.view-full-analysis-button , .view-full-personas-button , .view-full-user-stories-button , .view-full-style-guide-button {
+.view-full-analysis-button , .view-full-personas-button , .view-full-user-stories-button , .view-full-style-guide-button , .back-to-the-top-button {
   background-color: #700000;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fafafa;
   display: block;
+  font-family: 'Prompt', sans-serif;
   font-size: 14px;
   height: 40px;
   margin-left: auto;
@@ -309,12 +340,14 @@ footer {
 }
 
 .solution-title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   padding-bottom: 24px;
   text-align: center;
 }
 
 .solution-text {
+  font-family: 'Crimson Text', serif;
   font-size: 18px;
   margin-left: auto;
   margin-right: auto;
@@ -588,7 +621,7 @@ footer {
 }
 
 .mockups-1 , .mockups-2 , .mockups-3 , .mockups-4 {
-  height: 310px;
+  height: 320px;
   padding: 10px;
 }
 
