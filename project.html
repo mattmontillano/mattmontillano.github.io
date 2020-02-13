@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cloud World Case Study</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat:400,500|Prompt&display=swap" rel="stylesheet">
   </head>
 
@@ -12,32 +15,35 @@
 
       <!--Nav Bar-->
 
-      <header>
-        <a name="top"></a>
-        <div class="navbar-container">
-          <div class="logo-container">
-            <a class="logo" href="index.html">
-              <img src="images/logo.png" alt="logo">
-            </a>
-          </div>
-          <div class="nav-links-list-container">
-            <ul class="nav-links-list">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#bottom">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </header>
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="index.html" class="logo"><img src="images/logo.png"></a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="index.html" class="nav-links">Work</a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-links">About</a>
+            </li>
+            <li>
+                <a href="https://drive.google.com/file/d/1Y_FLqbzc7-1KaVB5Wopid1CEPqrkT6th/view?usp=sharing" class="nav-links">Resume</a>
+            </li>
+            <li>
+                <a href="#bottom" class="nav-links">Contact</a>
+            </li>
+        </ul>
+      </nav>
+
+      <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+          mainNav.classList.toggle('active');
+        });
+      </script>
 
       <main>
         <section class="case-study-intro">
@@ -51,7 +57,6 @@
             <a href="https://www.figma.com/proto/IXdKnaPhlWt0Z4m0Sl9VLq/Cloud-World-High-Fidelity-Mockups-Desktop?node-id=261%3A978&scaling=min-zoom" style="text-decoration:none">
               <button class="view-prototype-button-intro">View Prototype</button>
             </a>
-            <img class="intro-graph" src="images/intrograph.png" alt="intro-graph">
           </div>
         </section>
 
@@ -171,7 +176,7 @@
         </section>
 
         <section class="brand-identity">
-          <h3 class="section-title">Brand Identity</h3>
+          <h3 class="section-title-brand-identity">Brand Identity</h3>
         </section>
 
         <section class="brand-identity-images">
@@ -279,7 +284,7 @@
         </section>
 
         <section class="evolution">
-          <h3 class="section-title">Evolution</h3>
+          <h3 class="section-title-evolution">Evolution</h3>
         </section>
 
         <section class="evolution-images">
@@ -322,16 +327,16 @@
           <h1 class="footer-text">Let's Get Started.</h1>
           <ul class="contact-links" style="text-decoration:none">
             <li class="contact">
-              <a class="email" href="mailto: mattmontillano@gmail.com"><img src="images/mail.png" alt="mail"></a>
+              <a class="email" href="mailto: mattmontillano@gmail.com"><img class="bottom-links" src="images/mail.png" alt="mail"></a>
             </li>
             <li class="contact">
-              <a class="linkedin" href=https://www.linkedin.com/in/matthewmontillano/><img src="images/linkedin.png" alt="linkedin"></a>
+              <a class="linkedin" href=https://www.linkedin.com/in/matthewmontillano/><img class="bottom-links" src="images/linkedin.png" alt="linkedin"></a>
             </li>
             <li class="contact">
-              <a class="github" href=https://github.com/mattmontillano><img src="images/github.png" alt="github"></a>
+              <a class="github" href=https://github.com/mattmontillano><img class="bottom-links" src="images/github.png" alt="github"></a>
             </li>
             <li class="contact">
-              <a class="twitter" href=https://twitter.com/MatthewMontill1><img src="images/twitter.png" alt="twitter"></a>
+              <a class="twitter" href=https://twitter.com/MatthewMontill1><img class="bottom-links" src="images/twitter.png" alt="twitter"></a>
             </li>
           </ul>
         </div>
