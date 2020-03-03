@@ -234,6 +234,7 @@ footer {
 }
 
 .hero-button {
+  align-items: center;
   background-color: #700000;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -442,6 +443,7 @@ footer {
 }
 
 .more-about-me-button {
+  align-items: center;
   background-color: #700000;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -597,6 +599,7 @@ footer {
 }
 
 .view-prototype-button-intro {
+  align-items: center;
   background-color: #700000;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -663,6 +666,7 @@ footer {
 
 /* Section Buttons */
 .view-prototype-button {
+  align-items: center;
   background-color: #700000;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -685,6 +689,7 @@ footer {
 }
 
 .view-full-analysis-button , .view-full-personas-button , .view-full-user-stories-button , .view-full-style-guide-button , .back-to-the-top-button {
+  align-items: center;
   background-color: #700000;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -2660,6 +2665,7 @@ footer {
 }
 
 .about-section3-button {
+  align-items: center;
   background-color: #700000;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
