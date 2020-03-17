@@ -166,7 +166,7 @@ footer {
 }
 
 .hero {
-  background: url(Images/hero.png) center / cover;
+  background: url("Images/hero.png") center / cover;
   display: flex;
   flex-direction: column;
   padding-left: 80px;
@@ -306,7 +306,7 @@ footer {
 /* Home Page Media Queries 800px */
 @media screen and (max-width: 800px) {
   .hero {
-    background: url(Images/hero.png) left / cover;
+    background: url("Images/hero.png") left / cover;
     height: 550px;
     padding-left: 40px;
     padding-top: 40px;
@@ -362,7 +362,7 @@ footer {
 /* Home Page Media Queries 375px */
 @media screen and (max-width: 375px) {
   .hero {
-    background: url(Images/hero.png) left / cover;
+    background: url("Images/hero.png") left / cover;
     height: 300px;
     padding-left: 20px;
     padding-top: 20px;
