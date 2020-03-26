@@ -980,6 +980,14 @@ footer {
   padding: 20px 40px;
 }
 
+.preference-text1 , .preference-text2 {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  margin: auto;
+  max-width: 800px;
+  line-height: 1.4;
+}
+
 /* Mockups & Prototype v.2 */
 .mockups-prototype-v2 {
   display: flex;
@@ -1143,44 +1151,33 @@ footer {
     padding: 50px 50px;
   }
 
-  .brand-color {
-    max-width: 220px;
+  .brand-identity-images-container {
+    align-items: center;
+    flex-direction: column;
   }
 
-  .brand-color-1 {
-    max-width: 220px;
+  .brand-color {
+    max-width: 500px;
   }
 
   .brand-color-2 {
-    max-width: 150px;
-    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .brand-typography {
-    max-width: 220px;
-    margin: 0px 50px;
-  }
-
-  .brand-typography-1 {
-    max-width: 220px;
+    max-width: 500px;
   }
 
   .brand-typography-2 {
-    max-width: 180px;
-    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .brand-logo {
-    max-width: 220px;
-  }
-
-  .brand-logo-1 {
-    max-width: 220px;
+    max-width: 500px;
   }
 
   .brand-logo-2 {
-    max-width: 170px;
-    margin-top: 30px;
+    margin-bottom: 50px;
   }
 
   .preference-testing-images-container {
@@ -1190,6 +1187,11 @@ footer {
   .preference-yes-2 , .preference-yes-3 , .preference-no-2 , .preference-no-3 {
     max-width: 349px;
     padding: 20px 10px;
+  }
+
+  .preference-text1 , .preference-text2 {
+    font-size: 18px;
+    max-width: 500px;
   }
 }
 
@@ -1350,6 +1352,7 @@ footer {
   .brand-color-2 {
     max-width: 180px;
     margin-top: 30px;
+    margin-bottom: 0px;
   }
 
   .brand-typography {
@@ -1364,6 +1367,7 @@ footer {
   .brand-typography-2 {
     max-width: 220px;
     margin-top: 30px;
+    margin-bottom: 0px;
   }
 
   .brand-logo {
@@ -1703,6 +1707,10 @@ footer {
   .preference-yes-2 , .preference-yes-3 , .preference-no-2 , .preference-no-3 {
     max-width: 310px;
     padding: 10px;
+  }
+
+  .preference-text1 , .preference-text2 {
+    font-size: 14px;
   }
 
   .mockups-v2-1 {
