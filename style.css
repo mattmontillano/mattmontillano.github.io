@@ -210,14 +210,14 @@ footer {
 
 .hi {
   font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 500;
 }
 
 .who-am-i {
   font-family: 'Crimson Text', serif;
   font-weight:100;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 1.8;
   padding-top: 40px;
 }
@@ -242,7 +242,7 @@ footer {
   background-color: #fafafa;
   display: flex;
   justify-content: center;
-  padding: 70px;
+  padding: 80px;
 }
 
 .case-study-name-container {
@@ -275,10 +275,11 @@ footer {
 }
 
 .about-me {
+  background-color: #c4c4c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 70px;
+  padding: 80px;
 }
 
 .about-header {
@@ -329,11 +330,11 @@ footer {
   }
 
   .hi {
-    font-size: 34px;
+    font-size: 38px;
   }
 
   .who-am-i {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .case-study {
@@ -492,12 +493,14 @@ footer {
 }
 
 .cloud-world-title {
+  color: #fafafa;
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   padding-bottom: 20px;
 }
 
 .intro-text {
+  color: #fafafa;
   font-family: 'Crimson Text', serif;
   font-size: 20px;
   line-height: 1.4;
@@ -528,11 +531,11 @@ footer {
 
 .section-text {
   font-family: 'Crimson Text', serif;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 1.4;
   margin-left: auto;
   margin-right: auto;
-  max-width: 550px;
+  max-width: 650px;
   text-align: center;
 }
 
@@ -553,7 +556,7 @@ footer {
   width: 200px;
 }
 
-.view-full-analysis-button , .view-full-personas-button , .view-full-user-stories-button , .view-full-style-guide-button , .back-to-the-top-button {
+.view-full-analysis-button , .view-full-personas-button , .view-full-user-stories-button , .view-full-user-flows-button , .view-full-wireframes-button , .view-full-style-guide-button , .view-full-mockups1-button , .view-full-mockups2-button , .back-to-the-top-button {
   align-items: center;
   background-color: #700000;
   border: none;
@@ -565,7 +568,7 @@ footer {
   height: 40px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 200px;
 }
 
@@ -577,7 +580,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .problem {
@@ -617,10 +620,11 @@ footer {
 
 /* Competitive Analysis */
 .competitive-analysis {
+  background-color: #c4c4c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .competitive-analysis-images {
@@ -628,7 +632,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -652,50 +656,69 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .user-survey-images {
   background-color: #fafafa;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  padding: 50px 145px;
+  padding: 50px;
   text-align: center;
 }
 
-.survey-results-1 {
-  padding-bottom: 80px;
-  width: 200px;
+.user-survey-images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.survey-results-2 {
-  padding-bottom: 30px;
-  width: 200px;
+.survey1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.results1 {
+  max-width: 300px;
+  padding-top: 100px;
+  text-align: left;
+}
+
+.results2 {
+  margin: 0px 20px;
+  max-width: 300px;
+  padding-top: 100px;
+  text-align: left;
+}
+
+.results-number {
+  color: cornflowerblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+}
+
+.results-text {
+  font-family: 'Crimson Text', serif;
+  font-size: 26px;
 }
 
 .survey-results-3 {
-  width: 500px;
-}
-
-.survey-results-4 {
-  padding-top: 25px;
-  width: 500px;
+  max-width: 600px;
 }
 
 /* Personas */
 .personas {
+  background-color: #c4c4c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .personas-images {
   background-color: #fafafa;
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -726,6 +749,7 @@ footer {
   line-height: 1.4;
   margin-top: 10px;
   text-align: left;
+  padding: 2rem 0;
 }
 
 .persona-text {
@@ -747,7 +771,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .user-stories-images {
@@ -756,7 +780,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -776,10 +800,11 @@ footer {
 
 /* User Flows */
 .user-flows {
+  background-color: #c4c4c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .user-flows-images {
@@ -789,7 +814,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .user-flows-1 {
@@ -806,7 +831,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .wireframes-images {
@@ -816,7 +841,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 30px;
+  padding: 50px;
 }
 
 .wireframes-1 {
@@ -826,10 +851,11 @@ footer {
 
 /* Usability Tests */
 .usability-testing-round-1 {
+  background-color: #c4c4c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .usability-testing-round-1-images {
@@ -838,7 +864,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -858,7 +884,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .section-title-brand-identity {
@@ -873,7 +899,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -907,6 +933,54 @@ footer {
 .brand-typography-2 {
   max-width: 250px;
   margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.type-size {
+  text-align: left;
+}
+
+.type-size1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.type-size2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+
+}
+
+.type-size3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+
+}
+
+.type-size4 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+}
+
+.type-size5 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+
+}
+
+.type-size6 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 12px;
+  margin-bottom: 20px;
+
 }
 
 .brand-logo {
@@ -924,10 +998,11 @@ footer {
 
 /* Mockups & Prototype v.1 */
 .mockups-prototype-v1 {
+  background-color: #c4c4c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .mockups-prototype-v1-images {
@@ -936,7 +1011,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -958,7 +1033,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .preference-testing-images {
@@ -967,7 +1042,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -990,10 +1065,11 @@ footer {
 
 /* Mockups & Prototype v.2 */
 .mockups-prototype-v2 {
+  background-color: #c4c4c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .mockups-prototype-v2-images {
@@ -1002,7 +1078,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -1024,7 +1100,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .usability-testing-round-2-images {
@@ -1033,7 +1109,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -1043,10 +1119,11 @@ footer {
 
 /* Evolution */
 .evolution {
+  background-color: #c4c4c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .section-title-evolution {
@@ -1061,7 +1138,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -1074,7 +1151,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .cloud-world-ending-images {
@@ -1084,7 +1161,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 50px;
+  padding: 80px 50px;
 }
 
 .cloud-world-ending-images-container {
@@ -1102,35 +1179,11 @@ footer {
 
 /* Conclusion */
 .conclusion {
+  background-color: #c4c4c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
-}
-
-/* Project Page Media Queries 1600px */
-@media screen and (min-width: 1600px) {
-  .user-survey-images {
-    padding: 50px 100px;
-  }
-
-  .survey-results-1 {
-    width: 250px;
-    padding-bottom: 100px;
-  }
-
-  .survey-results-2 {
-    width: 250px;
-    padding-bottom: 40px;
-  }
-
-  .survey-results-3 {
-    width: 600px;
-  }
-
-  .survey-results-4 {
-    width: 650px;
-  }
+  padding: 80px 50px;
 }
 
 /* Project Page Media Queries 1200px */
@@ -1147,8 +1200,23 @@ footer {
     max-width: 215px;
   }
 
-  .user-survey-images {
-    padding: 50px 50px;
+  .survey1 {
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  .results1 {
+    padding-top: 0px;
+  }
+
+  .results2 {
+    margin: 0px;
+    padding-top: 40px;
+  }
+
+  .survey-results-3 {
+    max-width: 550px;
   }
 
   .brand-identity-images-container {
@@ -1170,6 +1238,10 @@ footer {
 
   .brand-typography-2 {
     margin-bottom: 50px;
+  }
+
+  .type-size {
+    margin-left: 70px;
   }
 
   .brand-logo {
@@ -1197,10 +1269,6 @@ footer {
 
 /* Project Page Media Queries 1024px */
 @media screen and (max-width: 1024px) {
-  .user-survey-images {
-    padding: 50px 20px;
-  }
-
   .evolution-1 {
     max-width: 750px;
   }
@@ -1278,8 +1346,32 @@ footer {
     max-width: 400px;
   }
 
-  .user-survey-images {
-    padding: 50px 20px;
+  .user-survey-images-container {
+    flex-direction: column;
+  }
+
+  .survey1 {
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .results2 {
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+
+  .results-number {
+    font-size: 50px;
+  }
+
+  .results-text {
+    font-size: 22px;
+  }
+
+  .survey-results-3 {
+    max-width: 500px;
   }
 
   .personas-images-container {
@@ -1312,7 +1404,7 @@ footer {
   }
 
   .user-flows-images {
-    padding: 20px;
+    padding: 50px 20px;
   }
 
   .user-flows-1 {
@@ -1366,8 +1458,6 @@ footer {
 
   .brand-typography-2 {
     max-width: 220px;
-    margin-top: 30px;
-    margin-bottom: 0px;
   }
 
   .brand-logo {
@@ -1459,24 +1549,19 @@ footer {
   }
 
   .user-survey-images {
-    padding: 50px;
+    padding: 50px 20px;
   }
 
-  .survey-results-1 {
-    padding-bottom: 0px;
-    width: 250px;
+  .results-number {
+    font-size: 40px;
   }
 
-  .survey-results-2 {
-    width: 250px;
+  .results-text {
+    font-size: 18px;
   }
 
   .survey-results-3 {
-    width: 290px;
-  }
-
-  .survey-results-4 {
-    width: 300px;
+    max-width: 350px;
   }
 
   .wireframes-1 {
@@ -1594,20 +1679,24 @@ footer {
     padding: 50px 10px;
   }
 
-  .survey-results-1 {
-    padding-bottom: 0px;
-    width: 200px;
+  .user-survey-images-container {
   }
 
-  .survey-results-2 {
-    width: 200px;
+  .survey1 {
+    flex-direction: column;
+  }
+
+  .results1 {
+    max-width: 250px;
+  }
+
+  .results2 {
+    max-width: 250px;
+    margin-left: 0px;
+    margin-top: 30px;
   }
 
   .survey-results-3 {
-    width: 280px;
-  }
-
-  .survey-results-4 {
     width: 300px;
   }
 
@@ -1669,7 +1758,7 @@ footer {
   .brand-typography {
     max-width: 300px;
     margin: 0px;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .brand-typography-1 {
@@ -1679,6 +1768,10 @@ footer {
   .brand-typography-2 {
     max-width: 180px;
     margin-top: 30px;
+  }
+
+  .type-size {
+    margin-left: 40px;
   }
 
   .brand-logo {
@@ -1755,7 +1848,7 @@ footer {
 .about-intro-container {
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 80px 40px;
 }
 
 .matt-photo {
@@ -1763,10 +1856,11 @@ footer {
 }
 
 .about-intro-text-container {
+  color: #fafafa;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 610px;
+  max-width: 480px;
   padding-left: 40px;
 }
 
@@ -1792,16 +1886,15 @@ footer {
 /* Middle */
 .about-section2-container {
   background-color: #fafafa;
-  align-items: center;
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 80px 40px;
 }
 
 .about-section2-text-container {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 350px;
 }
 
 .about-section2-title {
@@ -1826,6 +1919,7 @@ footer {
 .about-section2-image-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .camera-photo {
@@ -1835,16 +1929,16 @@ footer {
 
 /* End */
 .about-section3-container {
-  align-items: center;
+  background-color: #c4c4c4;
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 80px 40px;
 }
 
 .about-section3-text-container {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 360px;
 }
 
 .about-section3-title1 {
@@ -1863,7 +1957,7 @@ footer {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   margin-bottom: 20px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .about-section3-text2 {
@@ -1896,6 +1990,7 @@ footer {
 .about-section3-image-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .elephant-photo {
@@ -1978,6 +2073,7 @@ footer {
   }
 
   .about-section2-container {
+    align-items: center;
     flex-direction: column;
   }
 
@@ -2000,6 +2096,7 @@ footer {
   }
 
   .about-section3-container {
+    align-items: center;
     flex-direction: column;
   }
 
@@ -2028,5 +2125,96 @@ footer {
   .elephant-photo {
     width: 295px;
     margin: auto;
+  }
+}
+
+
+
+/* Contact Page */
+.contact-container {
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 550px;
+  padding: 100px 50px;
+}
+
+.contact-intro {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.contact-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  margin-bottom: 5px;
+}
+
+.contact-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.form-container {
+  margin: auto;
+  width: 75%;
+}
+
+.contact-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.contact-input {
+  border: .1rem solid #c4c4c4;
+  color: #242424;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.contact-textarea {
+  border: .1rem solid #c4c4c4;
+  font-family: 'Montserrat', sans-serif;
+  color: #242424;
+  height: 150px;
+  margin-top: 2px;
+  padding: 5px;
+  width: 100%;
+}
+
+.form-button {
+  align-items: center;
+  background-color: #700000;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fafafa;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  height: 40px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+/*Contact Page Media Queries 600px*/
+@media screen and (max-width: 600px) {
+  .contact-container {
+    padding: 70px 30px;
+  }
+
+  .contact-intro {
+    margin-left: 25px;
+  }
+
+  .contact-header {
+    font-size: 32px;
   }
 }
