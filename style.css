@@ -824,6 +824,7 @@ footer {
 
 .user-flows-4 {
   max-width: 500px;
+  padding-bottom: 20px;
 }
 
 /* Wireframes */
@@ -845,8 +846,12 @@ footer {
 }
 
 .wireframes-1 {
-  max-width: 450px;
+  max-width: 300px;
   padding: 20px;
+}
+
+.wireframes-4 {
+  padding-bottom: 40px;
 }
 
 /* Usability Tests */
@@ -1565,7 +1570,7 @@ footer {
   }
 
   .wireframes-1 {
-    max-width: 350px;
+    max-width: 250px;
   }
 
   .wireframes-4 {
@@ -1721,7 +1726,7 @@ footer {
   }
 
   .wireframes-1 {
-    max-width: 320px;
+    max-width: 220px;
   }
 
   .wireframes-4 {
